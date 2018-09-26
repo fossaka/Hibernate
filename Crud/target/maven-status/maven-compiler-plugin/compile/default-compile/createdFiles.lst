@@ -1,0 +1,3 @@
+view\App.class
+controller\AlunoJpaDAO.class
+model\Aluno.class
