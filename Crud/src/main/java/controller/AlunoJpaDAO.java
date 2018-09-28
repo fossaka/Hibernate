@@ -83,6 +83,7 @@ public class AlunoJpaDAO {
                        remove(aluno);
               } catch (Exception ex) {
                        ex.printStackTrace();
+                       entityManager.getTransaction().rollback();
               }
     }
 	
